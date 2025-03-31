@@ -16,6 +16,6 @@ jobs:
         run: npm run test:unit
 
   build:
-    runs-on: unbutu-latest
+    runs-on: ubuntu-latest
     steps:
       - run: echo "Building the projects..." && exit 0
