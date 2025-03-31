@@ -14,3 +14,8 @@ jobs:
         run: npm install
       - name: Run tests
         run: npm run test:unit
+
+  build:
+    runs-on: unbutu-latest
+    steps:
+      - run: echo "Building the projects..." && exit 0
